@@ -1,0 +1,19 @@
+.OnboardingSidebar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sidebar {
+	width: 56px;
+	height: 4px;
+	background-color: var(--onboarding-light-color);
+	border: none;
+}
+
+.sidebarActive {
+	width: 139px;
+}
+
+.sidebarView {
+	background-color: var(--black-color);
+}

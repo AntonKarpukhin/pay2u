@@ -1,0 +1,30 @@
+.OnboardingClose {
+	position: relative;
+	width: 36px;
+	height: 36px;
+	background: rgba(255, 252, 252, 0.45);
+	border-radius: 18px;
+	border: none;
+	align-self: flex-end;
+	margin-top: 24px;
+}
+
+.OnboardingClose:before,
+.OnboardingClose:after {
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 18px;
+	background-color: black;
+	top: 22%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.OnboardingClose:before {
+	transform: rotate(45deg);
+}
+
+.OnboardingClose:after {
+	transform: rotate(-45deg);
+}

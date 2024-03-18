@@ -1,0 +1,25 @@
+:root {
+	--main-color: #F1F4F8;
+	--onboarding-color: #E8F2FF;
+	--black-color: #050B1A;
+	--onboarding-light-color: #C5DEFC;
+	--white-color: #FFFCFC;
+
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	font-family: Inter, sans-serif;
+	width: 375px;
+	margin: 0 auto;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}

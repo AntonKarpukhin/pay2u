@@ -1,0 +1,28 @@
+.OnboardingItem {
+	display: grid;
+	margin-top: 40px;
+	height: 442px;
+}
+
+.title {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 120%;
+	color: var(--black-color);
+}
+
+.subtitle {
+	margin-top: 12px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 140%;
+	color: var(--black-color);
+}
+
+.img {
+	object-fit: contain;
+	width: 280px;
+	height: 280px;
+	justify-self: center;
+	align-self: flex-end;
+}

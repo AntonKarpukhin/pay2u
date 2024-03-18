@@ -1,0 +1,13 @@
+.OnboardingButton {
+	width: 343px;
+	height: 42px;
+	padding: 12px 40px 12px 40px;
+	border-radius: 8px;
+	border: none;
+	background-color: var(--black-color);
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 120%;
+	color: var(--white-color);
+	margin-top: 107px;
+}
