@@ -3,7 +3,7 @@ import styles from './onboarding-layout.module.css';
 
 const OnboardingLayout = ( {children}: OnboardingLayoutProps) => {
 	return (
-		<div className={styles.Layout}>
+		<div className={styles.OnboardingLayout}>
 			{children}
 		</div>
 	)

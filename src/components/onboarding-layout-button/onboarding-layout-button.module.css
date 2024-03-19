@@ -1,0 +1,19 @@
+.OnboardingLayoutButton {
+	position: fixed;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+
+}
+
+.test {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.test2 {
+	height: 52px;
+}

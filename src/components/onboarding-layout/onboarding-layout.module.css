@@ -1,8 +1,10 @@
-.Layout {
+.OnboardingLayout {
 	padding: 0 16px;
 	padding-top: 24px;
 	background-color: var(--onboarding-color);
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	position: relative;
+	width: 100%;
 }
