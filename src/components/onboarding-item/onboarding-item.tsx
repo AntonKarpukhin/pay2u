@@ -6,6 +6,7 @@ const OnboardingItem = ({title, subtitle, img}: OnboardingItemProps) => {
 	const title1 = title.includes('Управление подписками') ? title.slice(0, 23) : title;
 	const title2 = title.includes('Управление подписками') ? title.slice(23) : null;
 
+
 	return (
 		<div className={styles.OnboardingItem}>
 			<div className={styles.wrapper}>
