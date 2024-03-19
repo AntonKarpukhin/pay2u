@@ -34,11 +34,6 @@
 }
 
 @media screen and (min-height: 750px) {
-	.img {
-		position: fixed;
-		bottom: 200px;
-	}
-
 	.title {
 		font-size: 24px;
 	}
