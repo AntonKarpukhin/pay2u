@@ -29,7 +29,8 @@ const OnboardingPage = () => {
 			<OnboardingSidebar counter={select.data.length} position={select.position} onChangeSlide={onChangeSlide}/>
 			<OnboardingClose onCloseOnboarding={onCloseOnboarding}/>
 			<OnboardingItem img={select.data[select.position].img} subtitle={select.data[select.position].subtitle} title={select.data[select.position].title}/>
-			<OnboardingButton text={select.data[select.position].button} onChangeSlide={onChangeSlide} position={select.position}/>
+			<OnboardingButton text={select.data[select.position].button} onChangeSlide={onChangeSlide} position={select.position} type={'plus'}/>
+			{select.position > 0 ? <OnboardingButton text={'Назад'} onChangeSlide={onChangeSlide} position={select.position} type={' minus'}/> : null}
 		</OnboardingLayout>
 	)
 }
