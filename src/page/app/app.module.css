@@ -1,4 +1,9 @@
 .main {
 	min-width: 375px;
+	min-height: 100vh;
 	margin: 0 auto;
+}
+
+.mainOnboarding {
+	background-color: var(--onboarding-color);
 }
